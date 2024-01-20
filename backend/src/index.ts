@@ -6,7 +6,7 @@ import csvParser from 'csv-parser';
 import fs from 'fs';2
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT ||  3000;
 
 app.use(cors({
   origin: 'http://localhost:4000',
