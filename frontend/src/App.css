@@ -1,0 +1,59 @@
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.csv-table {
+  margin-top: 2rem;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+.csv-table th, .csv-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.csv-table th {
+  background-color: #f2f2f2;
+}
+#choose-file-button {
+  width: 8rem;
+  height: 1.75rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: rgb(247, 242, 242);
+}
+#choose-file-button:hover {
+  background-color:#eaeaea ;
+  transition: 0.4s;
+}
+#submit-button {
+  width: 6rem;
+  height: 1.75rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: rgb(247, 242, 242);
+}
+#submit-button:hover{
+  background-color:#eaeaea ;
+  transition: 0.4s;
+}
+#input-search-field {
+  padding: 8px 8px;
+  border-radius: 4px;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+#header {
+  font-family: 'Poppins';
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
